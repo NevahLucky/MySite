@@ -1,4 +1,64 @@
 /** @format */
+/* Color Palette */
+/*
+CSS Hex
+--rich-black: #010b13ff;
+--amethyst: #8367c7ff;
+--celadon: #b3e9c7ff;
+--golden-gate-bridge: #f04a00ff;
+--gold: #ffd700ff;
+*/
+
+/* Global CSS */
+
 * {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	outline: 1px red dotted;
+}
+
+body {
+	font-family: "Garamound", "Times New Roman", serif;
+}
+
+a {
+	color: inherit;
+}
+
+/* Header CSS */
+header {
 	background-color: #010b13ff;
+	color: #b3e9c7ff;
+	padding: 20px 50px 10px;
+}
+
+.navbar {
+	display: flex;
+	gap: 44px;
+	font-size: 20px;
+}
+
+.homebar {
+	margin-right: auto;
+}
+
+/* Main CSS */
+
+main {
+	background-color: #010b13ff;
+	color: #b3e9c7ff;
+}
+
+/* Footer CSS */
+
+footer {
+	background-color: #010b13ff;
+	color: #b3e9c7ff;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
 }
