@@ -1,14 +1,14 @@
 /** @format */
-
+/* Use BEM methodology */
 /* Color Palette */
 :root {
-	--rich-black: #010b13;         /* Deep vault black */
-	--soft-black: #1a1a1a;         /* Secondary containers */
-	--gold: #ffd700;               /* Highlight gold */
-	--burnt-orange: #ff8c00;       /* Action/orange pop */
-	--dark-wood: #3b2f2f;          /* Balcony/floor visuals */
-	--text-gray: #e6e6e6;          /* Readable text on dark */
-	--metal: #444444;              /* Vault door detailing */
+	--rich-black: #010b13; /* Deep vault black */
+	--soft-black: #1a1a1a; /* Secondary containers */
+	--gold: #ffd700; /* Highlight gold */
+	--burnt-orange: #ff8c00; /* Action/orange pop */
+	--dark-wood: #3b2f2f; /* Balcony/floor visuals */
+	--text-gray: #e6e6e6; /* Readable text on dark */
+	--metal: #444444; /* Vault door detailing */
 }
 
 /* Global Reset */
